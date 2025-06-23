@@ -529,6 +529,237 @@ li::marker {
   cursor: pointer;
 }
 
+.vacancies__2 {
+  background: #080D11;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.vacancies__h__2 {
+  font-size: 36px;
+  font-weight: 500;
+}
+.vacancies__cards__2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.vacancies__card__2 {
+  border-radius: 15px;
+  background: #FFF;
+  padding-block: 30px;
+  padding-left: 65px;
+  padding-right: 135px;
+  width: 445px;
+}
+.vacancies__card__h__2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3C3B3E;
+  padding-bottom: 15px;
+  width: 332px;
+}
+
+.vacancies__card__text__2 {
+  color: #3C3B3E;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+.vacancies__card__btn__2 {
+  padding: 10px 30px;
+  border-radius: 10px;
+  background: var(--yellow-bg);
+  color: #FFF;
+  margin-top: 20px;
+}
+
+.vacancies__btn__2 {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 600;
+  background: var(--yellow-bg);
+  border-radius: 20px;
+  padding: 24px 77px;
+  margin-block: 80px;
+}
+
+.contacts__h__2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFF;
+  display: flex;
+  justify-self: start;
+  padding-bottom: 50px;
+}
+.contacts__contents__2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 190px;
+  margin-bottom: 130px;
+}
+.contacts__content__2 {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 13px;
+}
+
+.contacts__main__2 {
+  background: #080D11;
+  padding-top: 50px;
+}
+
+.contacts__content__h__2 {
+  font-size: 34px;
+  color: var(--yellow-bg);
+  font-weight: 500;
+}
+.contacts__content__text__2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contacts__socail__2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cp__2 {
+  cursor: pointer;
+}
+
+.history__h__3 {
+  font-weight: 600;
+  font-size: 32px;
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
+.history__text__3 {
+  font-size: 32px;
+  color: #989EA2;
+  width: 1090px;
+}
+
+.gp30 {
+  display: flex;
+  gap: 35px;
+}
+
+.history__3 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+  margin-bottom: 160px;
+}
+
+.partnerships__2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 120px;
+}
+.partnerships__card__2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 15px;
+  border-radius: 15px;
+  background: #FFF;
+  width: 530px;
+  padding: 23px 30px 24px 25px;
+}
+.partnerships__card__text__2 {
+  color: #747F88;
+  font-size: 20px;
+}
+.fz40 {
+  font-size: 40px;
+}
+
+.feedback__2 {
+  display: flex;
+  justify-content: space-between;
+  background: #15202C;
+}
+.question__2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+.question__h__2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.question__text__2 {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 30px 0 20px 0;
+  width: 400px;
+}
+.question__text__gap__2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 200;
+  gap: 10px;
+}
+.feedback__social__2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.feedback__form__2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form__input__2, .form__textarea__2 {
+  width: 810px;
+  padding: 24px 47px;
+  background: #E8EDF2;
+  border: solid 3px #4A5E74;
+  font-size: 20px;
+  color: #000;
+  border-radius: 15px;
+}
+.form__textarea__2 {
+  height: 142px;
+  resize: none;
+}
+.form__btn__2 {
+  border: solid 4px rgba(227, 164, 0, 0.2);
+  background: var(--yellow-bg);
+  width: 810px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 20px 40px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
 
 .scroll_bar__1 {
   background-color: var(--card-bg);
