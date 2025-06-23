@@ -1,0 +1,33 @@
+:root {
+  --dark-bg: #15202C;
+  --yellow-bg: #E3A400;
+  --text_color: #FFF;
+  --grey-bg: #282F36;
+  --header-bg: #131F2B;
+}
+
+.header__2 {
+  width: 100%;
+  padding: 22px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--header-bg);
+}
+
+.logo__2 {
+  color: var(--yellow-bg);
+  font-size: 48px;
+  font-weight: 800;
+}
+.nav__2 {
+  display: flex;
+  gap: 37px;
+  font-size: 18px;
+  font-weight: 500;
+  padding-right: 214px;
+}
+
+.pad {
+  padding-inline: 135px;
+}
