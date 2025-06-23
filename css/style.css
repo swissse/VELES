@@ -20,6 +20,7 @@
   font-size: 48px;
   font-weight: 800;
 }
+
 .nav__2 {
   display: flex;
   gap: 37px;
@@ -28,6 +29,262 @@
   padding-right: 214px;
 }
 
-.pad {
+.pad-inline {
   padding-inline: 135px;
+}
+
+.pad-block {
+  padding-block: 50px;
+}
+
+.about__container__2 {
+  background: #080D11;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.about__container__2::after {
+  content: url("../img/aboutUs/Rectangle124.png");
+  position: absolute;
+  top: 0;
+  left: -10%;
+}
+
+.about__h__2 {
+  color: var(--text_color);
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.yellow__text__2 {
+  color: var(--yellow-bg);
+}
+
+.about__text__2 {
+  font-size: 24px;
+  width: 1223px;
+  margin: 50px 0 30px 0;
+}
+
+.advantages__2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantages__card__2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.advantages__h__2 {
+  width: 330px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.we__offer__container__2 {
+  padding: 120px 0;
+  background: #080D11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 142px;
+  position: relative;
+}
+
+.we__offer__container__2::after {
+  content: url("../img/aboutUs/Rectangle 123.png");
+  position: absolute;
+  bottom: -2.4px;
+  right: 0;
+}
+
+.we__offer__content__2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.we__offer__content__h__2 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.we__offer__content__text__2 {
+  font-size: 28px;
+  font-weight: 300;
+  padding: 27px 0;
+  width: 648px;
+}
+
+.yellow__list__2 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+
+  li {
+    list-style: inside;
+    font-size: 28px;
+    font-weight: 300;
+  }
+}
+
+li::marker {
+  color: var(--yellow-bg);
+}
+
+.pad__no {
+  padding: 0;
+}
+
+.we__offer__content__text__pad__2 {
+  margin: 40px 0;
+  width: 600px;
+}
+
+.ul__h__2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.we__offer__content__text__margin__2 {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.fz__no {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+
+
+
+
+.delivery__2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--grey-bg);
+}
+
+.delivery__h__2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+
+.delivery__cards__2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.delivery__card__2 {
+  background: #FFF;
+  border-radius: 15px;
+  padding: 40px 50px 60px 50px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+    gap: 12px;
+}
+
+.delivery__card__h__2 {
+  color: #3C3B3E;
+  width: 360px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.delivery__card__text__2 {
+  width: 360px;
+  color: #3C3B3E;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.width__no {
+  padding-bottom: 23px;
+}
+
+.history__2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-block: 120px;
+  background: #080D11;
+}
+.history__content__2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+.history__h__2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.history__text__2 {
+  font-size: 24px;
+  font-weight: 300;
+  width: 810px;
+}
+
+.history__text__2:not(:first-child) {
+  padding-top: 25px;
+}
+
+
+
+
+
+
+.footer__container__2 {
+  background: #15171A;
+  padding-block: 100px 150px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 120px;
+}
+
+.footer__col__2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  gap: 10px;
+}
+
+.col__h__2 {
+  font-weight: 500;
+  color: #DFDFDF;
+  font-size: 20px;
+  padding-bottom: 12px;
+}
+.col__text__2 {
+  color: #8C98A4;
+  font-size: 16px;
+  font-weight: 300;
+}
+.social {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
