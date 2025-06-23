@@ -1,9 +1,13 @@
 :root {
+  --main-bg: #080D11;
   --dark-bg: #15202C;
   --yellow-bg: #E3A400;
   --text_color: #FFF;
   --grey-bg: #282F36;
   --header-bg: #131F2B;
+  --card-bg: #0F1720;
+  --card-border: #72869C;
+  --gray-color: #BAC1CA
 }
 
 .header__2 {
@@ -20,6 +24,7 @@
   font-size: 48px;
   font-weight: 800;
 }
+
 .nav__2 {
   display: flex;
   gap: 37px;
@@ -28,6 +33,215 @@
   padding-right: 214px;
 }
 
-.pad {
+.pad-inline {
   padding-inline: 135px;
 }
+
+.pad-block {
+  padding-block: 50px;
+}
+
+
+.welcome_page__1 {
+  background-color: var(--main-bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0;
+}
+
+.welcome_title__1{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.welcome_text__1{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.btn__1{
+  background-color: var(--yellow-bg);
+  color: var(--text_color);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.submit_application__1{
+  padding: 15px 40px;
+  margin-block: 45px 70px;
+}
+
+.highlighted__1{
+  color: var(--yellow-bg);
+}
+
+.pluses__1{
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.pluse__1{
+  text-align: center;
+  width: 120px;
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+  font-size: 16px;
+  font-weight: 600;
+
+  span{
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+
+.services__1{
+  background: url(../img/services/img.png),  var(--dark-bg);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.services_cards__1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.services_card__1{
+  background-color: var(--card-bg);
+  border: 3px solid var(--card-border);
+  border-radius: 15px;
+  width: 390px;
+  height: 360px;
+  padding: 35px 48px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  gap: 20px;
+
+  /* g > rect{
+    fill: #009914;
+  } */
+}
+
+.services_card_title__1{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.services_card_more_detailed__1{
+  font-weight: 600;
+}
+
+.name_block__1{
+  font-size: 32px;
+  font-weight: 600;
+  /* margin-bottom: 50px; */
+}
+
+/* .car_card__1 g g rect{
+  fill: #769c72;
+} */
+
+.our_cars__1{
+  .services_card__1 {
+    height: 480px;
+  }
+  .services_card_title__1{
+    font-size: 24px;
+  }
+  .services_card_text__1{
+    font-size: 12px;
+  }
+  svg{
+    margin: -24px;
+    height: 270px;
+    rect{
+      height: 270px;
+    }
+  }
+}
+
+.advantages__1{
+  background: url(../img/advantages/img_bg.png), var(--dark-bg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.advantages_list__1{
+  display: flex;
+  flex-flow: wrap;
+  gap: 100px;
+}
+
+.advantage__1{
+  width: 290px;
+}
+
+.advantage_name{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.about__1{
+  background: url(../img/about/img_bg.png), var(--yellow-bg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.about_description__1{
+  width: 550px;
+  line-height: 1.2;
+  display: flex;
+  flex-flow: column;
+  gap: 52px;
+}
+
+.title_about__1{
+  margin-bottom: 20px;
+}
+
+.characteristics__1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.characteristic__1{
+  background-color: var(--dark-bg);
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+  width: min-content;
+  padding: 10px 25px;
+  text-align: center;
+}
+
+.characteristic_num__1{
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.characteristic_text__1{
+  width: max-content;
+  color: var(--gray-color);
+}
+
+.btn_more{
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 15px;
+  background-color: var(--dark-bg);
+  padding: 22px 77px;
+  width: min-content;
+}
+
