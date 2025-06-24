@@ -909,9 +909,10 @@ li::marker {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-
+/* 
 .plus_work_img_1__1 {
   background: url(../img/scroll_bar/img_1.png), var(--text_color);
+  
 }
 
 .plus_work_img_2__1 {
@@ -920,7 +921,7 @@ li::marker {
 
 .plus_work_img_3__1 {
   background: url(../img/scroll_bar/img_3.png), var(--text_color);
-}
+} */
 
 
 .plus_work__1 {
@@ -1318,11 +1319,20 @@ li::marker {
 
 .hover__btn__2,.hover__btn__dark__2,.hover__border__yellow__2,.hover__btn__yellow__2,.hover__btn__darkk__2,.hover__btn__rev__2,.contacts__content__h__2 {
   transition: all 0.3s ease-in-out;
+
+  .send{
+    background: url(../img/aboutUs/social/send.png);
+    background-size: contain;
+  }
 }
 
 .hover__btn__2:hover {
   background: #FFF;
   color: var(--yellow-bg);
+  .send{
+    background: url(../img/aboutUs/social/hover_send.png);
+    background-size: contain;
+  }
 }
 
 .hover__btn__rev__2:hover {
@@ -1350,14 +1360,69 @@ li::marker {
 
 .hover__btn__darkk__2:hover {
   background: var(--main-bg);
-}.plus_work_img_1__1 {
+}
+.plus_work_img_1__1 {
   background: url(../img/scroll_bar/img_1.png), var(--text_color);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .plus_work_img_2__1 {
   background: url(../img/scroll_bar/img_2.png), var(--text_color);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .plus_work_img_3__1 {
   background: url(../img/scroll_bar/img_3.png), var(--text_color);
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+.social_icon{
+  width: 40px;
+  height: 40px;
+  transition: all .3s ;
+  
+}
+
+.vk{
+    background: url(../img/aboutUs/social/vk.png);
+    background-size: contain;
+}
+
+.tg{
+    background: url(../img/aboutUs/social/tg.png);
+    background-size: contain;
+}
+
+.WhatsApp{
+    background: url(../img/aboutUs/social/WhatsApp.png);
+    background-size: contain;
+}
+
+.mail{
+    background: url(../img/aboutUs/social/mail.png);
+    background-size: contain;
+}
+
+.vk:hover{
+  background: url(../img/aboutUs/social/hover_vk.png);
+  background-size: contain;
+}
+
+.tg:hover{
+  background: url(../img/aboutUs/social/hover_tg.png);
+  background-size: contain;
+}
+
+.WhatsApp:hover{
+  background: url(../img/aboutUs/social/hover_WhatsApp.png);
+  background-size: contain;
+}
+
+.mail:hover{
+  background: url(../img/aboutUs/social/hover_mail.png);
+  background-size: contain;
+}
+

@@ -3,16 +3,28 @@ const left_btn = document.querySelector('.scroll_left__1')
 
 const scroll = document.querySelector('.scroll_bar__1')
 
+const num_page = 4;
+
+let offset = 0;
 let def_point = 0
 
 left_btn.addEventListener('click', () => {
-   scroll.scrollBy(-1425, 0)
+   if(offset - 1425 < 0){
+      return
+   }
+   offset -= 1425
+   scroll.scrollTo(offset, 0)
    def_point--
    clear_active_point(def_point)
 })
 
 right_btn.addEventListener('click', () => {
-   scroll.scrollBy(1425, 0)
+   if(offset + 1425 >= 1425 * num_page){
+      console.log('offset');
+      return
+   }
+   offset += 1425
+   scroll.scrollTo(offset, 0)
    def_point++
    clear_active_point(def_point)
 })
