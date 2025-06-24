@@ -744,6 +744,7 @@ li::marker {
 .contacts__content__h__2 {
   font-size: 34px;
   color: var(--yellow-bg);
+  cursor: pointer;
   font-weight: 500;
 }
 
@@ -1315,8 +1316,41 @@ li::marker {
   }
 }
 
+.hover__btn__2,.hover__btn__dark__2,.hover__border__yellow__2,.hover__btn__yellow__2,.hover__btn__darkk__2,.hover__btn__rev__2,.contacts__content__h__2 {
+  transition: all 0.3s ease-in-out;
+}
 
-.plus_work_img_1__1 {
+.hover__btn__2:hover {
+  background: #FFF;
+  color: var(--yellow-bg);
+}
+
+.hover__btn__rev__2:hover {
+  background: var(--yellow-bg);
+}
+
+.hover__btn__rev__2:hover .contacts__content__h__2 {
+  color: var(--text_color);
+}
+
+.hover__btn__dark__2:hover {
+  background: #FFF;
+  color: var(--dark-bg);
+}
+
+.hover__btn__yellow__2:hover {
+  background: var(--yellow-bg);
+  color: var(--text_color);
+}
+
+.hover__border__yellow__2:hover {
+  border: solid 2px var(--yellow-bg);
+  color: var(--yellow-bg);
+}
+
+.hover__btn__darkk__2:hover {
+  background: var(--main-bg);
+}.plus_work_img_1__1 {
   background: url(../img/scroll_bar/img_1.png), var(--text_color);
 }
 
